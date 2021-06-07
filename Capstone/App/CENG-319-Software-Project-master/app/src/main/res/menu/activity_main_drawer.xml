@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_personallog"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_personallog" />
+        <item
+            android:id="@+id/nav_override"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_override" />
+        <item
+            android:id="@+id/nav_qrcode"
+            android:icon="@drawable/ic_menu_code"
+            android:title="@string/menu_qrcode" />
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/ic_menu_graph"
+            android:title="@string/menu_graph" />
+        <item
+            android:id="@+id/nav_employeelog"
+            android:icon="@drawable/ic_menu_employeelog"
+            android:title="@string/menu_employeelog" />
+
+        <item
+            android:id="@+id/nav_inputTemp"
+            android:icon="@drawable/ic_menu_input"
+            android:title="@string/menu_input" />
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/profile"
+            android:title="@string/menu_account" />
+
+
+    </group>
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_personallog">
+
+    <fragment
+        android:id="@+id/nav_personallog"
+        android:name="com.bmat.css_project.ui.PersonalLog.PersonalLogFragment"
+        android:label="@string/menu_personallog"
+        tools:layout="@layout/fragment_personallog" />
+
+    <fragment
+        android:id="@+id/nav_override"
+        android:name="com.bmat.css_project.ui.Override.OverrideFragment"
+        android:label="@string/menu_override"
+        tools:layout="@layout/fragment_override" />
+
+    <fragment
+        android:id="@+id/nav_qrcode"
+        android:name="com.bmat.css_project.ui.QRCode.QRCodeFragment"
+        android:label="@string/menu_qrcode"
+        tools:layout="@layout/fragment_qrrcode" />
+
+    <fragment
+        android:id="@+id/nav_graph"
+        android:name="com.bmat.css_project.ui.graph.GraphFragment"
+        android:label="@string/menu_graph"
+        tools:layout="@layout/fragment_graph" />
+
+    <fragment
+        android:id="@+id/nav_employeelog"
+        android:name="com.bmat.css_project.ui.employee_logs.EmployeeLogsFragment"
+        android:label="@string/menu_employeelog"
+        tools:layout="@layout/fragment_employee_logs" />
+
+    <fragment
+        android:id="@+id/nav_inputTemp"
+        android:name="com.bmat.css_project.ui.InputTemp.inputTemp"
+        android:label="@string/menu_input"
+        tools:layout="@layout/fragment_input_temp" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.bmat.css_project.ui.Account.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/account_fragment" />
+
+</navigation>

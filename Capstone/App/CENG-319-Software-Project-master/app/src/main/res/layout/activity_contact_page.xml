@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactPage"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:id="@+id/contactTV1"
+        android:layout_width="111dp"
+        android:layout_height="39dp"
+        android:text="Contact"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/membersTv"
+        android:layout_width="383dp"
+        android:layout_height="527dp"
+        android:text="
+Company Email - CSS@gmail.com\n
+Company Number - 647-858-2969\n
+Location Address - 76 Autumns blvd\n
+\n
+Team Members:\n
+Tyler Ruffolo  - Owner\n
+Student ID - n01296762 \n
+Personal Email - \n
+\n
+Brendon Rongcales -  Software Engineer\n
+Student ID - n01288965\n
+Personal Email - \n
+\n
+Anthony-Paul Fontana - General Manager\n
+Student ID - n01222107\n
+Personal Email - \n
+\n
+Michael Tonon - Junior Developer\n
+Student ID - n01323314\n
+Personal Email - \n"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
+</androidx.constraintlayout.widget.ConstraintLayout>

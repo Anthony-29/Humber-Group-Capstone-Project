@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bmat.css_project">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.bmat.css_project.LogoutPage" />
+        <activity android:name="com.bmat.css_project.Settings" />
+        <activity android:name="com.bmat.css_project.HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bmat.css_project.ContactPage" />
+        <activity android:name="com.bmat.css_project.UpdatePage" />
+        <activity android:name="com.bmat.css_project.AboutUs" />
+        <activity android:name="com.bmat.css_project.ForgotPassword" />
+        <activity android:name="com.bmat.css_project.createAccount" />
+        <activity android:name="com.bmat.css_project.Login" />
+        <activity
+            android:name="com.bmat.css_project.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
