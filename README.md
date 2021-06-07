@@ -1,7 +1,7 @@
 # Humber Capstone Project #
 
 
-##About the project ##
+## About the project ##
 
 
 For our final project, my group and I decided to make a Covid Security System that would help businesses reopen safely. Our main goal was to alert the owner of a business when an employee’s temperature was too high. With Covid-19, a fever is one of the first signs that you have contracted the virus, by taking the employees temperature when they upon arrival the owner can deny them access which could stop the spread within the business. 
