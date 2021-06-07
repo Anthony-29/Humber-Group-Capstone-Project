@@ -4,12 +4,12 @@
 ## About the project ##
 
 
-For our final project, my group and I decided to make a Covid Security System that would help businesses reopen safely. Our main goal was to alert the owner of a business when an employee’s temperature was too high. With Covid-19, a fever is one of the first signs that you have contracted the virus, by taking the employees temperature when they upon arrival the owner can deny them access which could stop the spread within the business. 
+For our final project, my group and I decided to make a Covid Security System that would help businesses reopen safely. Our main goal was to alert the owner of a business when an employee’s temperature was too high. With Covid-19, a fever is one of the first signs that you have contracted the virus, by taking the employees temperature they upon arrival, the owner can deny them access which could stop the spread within the business. 
 
 
 ## How it was created ##
 
-There are two major parts to this project, the android application, and the hardware/sensors. The android application was created in the Android Studio IDE, it was coded in Java, and it uses firebase as the database for login information and temperature data. For the hardware and sensors, we used a raspberry pi 3 B+ as the powerhouse for the whole project and each sensor was coded in python. 
+There are two major parts to this project, the android application, and the hardware/sensors. The android application was created using the Android Studio IDE, it was coded in Java, and it uses firebase as the database for login information and temperature data. For the hardware and sensors, we used a raspberry pi 3 B+ as the powerhouse for the whole project and each sensor was coded in python. 
 
 
 ## How it works: Hardware ##
